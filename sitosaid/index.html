@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EFood - L'Éclat Croustillant de Mamers</title>
+    <meta name="description"
+        content="Découvrez notre menu : Bowls, Sandwichs, Tacos, Burgers et plus. 100% Halal, sur place et à emporter.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;600;700;800&family=Oswald:wght@500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Background Layer -->
+    <div class="background-layer"></div>
+
+    <div class="container">
+
+        <!-- HEADER -->
+        <header class="header">
+            <div class="logo-container">
+                <!-- QUI PUOI INSERIRE IL TUO LOGO -> basta sostituire logo.jpg con il nome del tuo file se è diverso -->
+                <img src="logo.png" alt="EFood Logo" class="logo"
+                    onerror="this.src='https://placehold.co/400x200/1a4223/white?text=eFood+Logo'">
+            </div>
+
+            <div class="header-badges">
+                <div class="badge-halal">
+                    <img src="halal.png" alt="100% Halal" class="halal-icon" onerror="this.style.display='none'">
+                </div>
+            </div>
+        </header>
+
+        <section class="ribbon-section">
+            <div class="ribbon">
+                <span class="ribbon-text">L'Éclat Croustillant de Mamers</span>
+            </div>
+        </section>
+
+        <!-- SECTION BOWLS -->
+        <section class="menu-section section-bowls">
+            <div class="bowls-grid">
+
+                <div class="bowl-card">
+                    <div class="bowl-image-placeholder">
+                        <!-- QUI PUOI INSERIRE LA FOTO DELLA BOWL -->
+                        <img src="bowl1.png" alt="Bowl" class="product-image" onerror="this.style.opacity='0'">
+                        <i class="fa-solid fa-bowl-food fallback-icon"></i>
+                        <div class="price-circle-absolute">10€</div>
+                    </div>
+                    <h3 class="item-title">LE TASTY CROUSTY K BOWL</h3>
+                    <p class="item-desc">Riz, Sauce maison, Chili Thaï, Oignons frits, Persil Origan, Viande de Kebab.
+                    </p>
+                </div>
+
+                <div class="bowl-card">
+                    <div class="bowl-image-placeholder">
+                        <!-- QUI PUOI INSERIRE LA FOTO DELLA BOWL -->
+                        <img src="bowl2.png" alt="Bowl" class="product-image" onerror="this.style.opacity='0'">
+                        <i class="fa-solid fa-bowl-food fallback-icon"></i>
+                        <div class="price-circle-absolute">9€</div>
+                    </div>
+                    <h3 class="item-title">LE CHEEZY BOWL</h3>
+                    <p class="item-desc">Frites, Sauce Fromagère, Cheddar, Mozzarella, Oignons frits, Tenders.</p>
+                </div>
+
+                <div class="bowl-card">
+                    <div class="bowl-image-placeholder">
+                        <!-- QUI PUOI INSERIRE LA FOTO DELLA BOWL -->
+                        <img src="bowl3.png" alt="Bowl" class="product-image" onerror="this.style.opacity='0'">
+                        <i class="fa-solid fa-bowl-food fallback-icon"></i>
+                        <div class="price-circle-absolute">10€</div>
+                    </div>
+                    <h3 class="item-title">LE TASTY CROUSTY BOWL</h3>
+                    <p class="item-desc">Riz, Sauce maison, Chili Thaï, Oignons frits, Persil Origan, Poulet
+                        croustillant.</p>
+                </div>
+
+            </div>
+
+            <div class="supplements-bowls">
+                <div class="menu-item inline-item">
+                    <div class="item-details">
+                        <span class="item-name">Suppléments sauce</span>
+                        <span class="item-desc-inline">(sauce maison, Curry, Chili Thaï,...)</span>
+                    </div>
+                    <div class="price-circle">0,5€</div>
+                </div>
+                <div class="menu-item inline-item">
+                    <div class="item-details"><span class="item-name">Suppléments Riz</span></div>
+                    <div class="price-circle">1€</div>
+                </div>
+                <div class="menu-item inline-item">
+                    <div class="item-details"><span class="item-name">Suppléments Viande</span></div>
+                    <div class="price-circle">2€</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- MENU GRID FOR OTHER SECTIONS -->
+        <div class="menu-grid">
+
+            <!-- COLUMN 1 -->
+            <div class="menu-column">
+
+                <!-- SANDWICH -->
+                <section class="menu-category">
+                    <div class="category-header">
+                        <img src="sandwich.png" alt="" class="category-image" onerror="this.style.display='none'">
+                        <h2 class="category-title"><span class="brush-bg">SANDWICH</span></h2>
+                    </div>
+                    <ul class="items-list">
+                        <li class="menu-item">
+                            <span class="item-name">KEBAB</span>
+                            <div class="price-circle">7€</div>
+                        </li>
+                        <li class="menu-item">
+                            <span class="item-name">PITA</span>
+                            <div class="price-circle">7€</div>
+                        </li>
+                        <li class="menu-item">
+                            <span class="item-name">PANINI</span>
+                            <div class="price-circle">7€</div>
+                        </li>
+                        <li class="menu-item">
+                            <span class="item-name">KING</span>
+                            <div class="price-circle">9€</div>
+                        </li>
+                        <li class="menu-item">
+                            <span class="item-name">ROYAL</span>
+                            <div class="price-circle">10€</div>
+                        </li>
+                        <li class="menu-item">
+                            <span class="item-name">AMERICAN</span>
+                            <div class="price-circle">8€</div>
+                        </li>
+                        <li class="menu-item">
+                            <span class="item-name">PITA ENFANT</span>
+                            <div class="price-circle">5€</div>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- BURGER -->
+                <section class="menu-category mt-4">
+                    <div class="category-header">
+                        <img src="burger.png" alt="" class="category-image" onerror="this.style.display='none'">
+                        <h2 class="category-title"><span class="brush-bg">BURGER</span></h2>
+                    </div>
+                    <ul class="items-list">
+                        <li class="menu-item">
+                            <span class="item-name">SIMPLE</span>
+                            <div class="price-circle">5€</div>
+                        </li>
+                        <li class="menu-item">
+                            <span class="item-name">DOUBLE</span>
+                            <div class="price-circle">6€</div>
+                        </li>
+                        <li class="menu-item">
+                            <span class="item-name">TRIPLE</span>
+                            <div class="price-circle">7€</div>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- TENDERS -->
+                <section class="menu-category mt-4">
+                    <div class="category-header">
+                        <img src="tenders.png" alt="" class="category-image" onerror="this.style.display='none'">
+                        <h2 class="category-title"><span class="brush-bg">TENDERS</span></h2>
+                    </div>
+                    <ul class="items-list">
+                        <li class="menu-item">
+                            <span class="item-name">TENDERS x6</span>
+                            <div class="price-circle">6€</div>
+                        </li>
+                        <li class="menu-item">
+                            <span class="item-name">TENDERS x10</span>
+                            <div class="price-circle">9€</div>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- TACOS GRATINÉ -->
+                <section class="menu-category mt-4">
+                    <div class="category-header">
+                        <img src="tacos-gratine.png" alt="" class="category-image" onerror="this.style.display='none'">
+                        <h2 class="category-title"><span class="brush-bg">TACOS GRATINÉ</span></h2>
+                    </div>
+                    <ul class="items-list">
+                        <li class="menu-item">
+                            <span class="item-name">TACOS GRATINÉ</span>
+                            <div class="price-circle">9€</div>
+                        </li>
+                    </ul>
+                </section>
+
+            </div>
+
+            <!-- COLUMN 2 -->
+            <div class="menu-column">
+
+                <!-- TACOS -->
+                <section class="menu-category">
+                    <div class="category-header">
+                        <img src="tacos.png" alt="" class="category-image" onerror="this.style.display='none'">
+                        <h2 class="category-title"><span class="brush-bg">TACOS</span></h2>
+                    </div>
+                    <ul class="items-list">
+                        <li class="menu-item">
+                            <span class="item-name">SIMPLE</span>
+                            <div class="price-circle">7€</div>
+                        </li>
+                        <li class="menu-item">
+                            <span class="item-name">DOUBLE</span>
+                            <div class="price-circle">9€</div>
+                        </li>
+                        <li class="menu-item">
+                            <span class="item-name">TRIPLE</span>
+                            <div class="price-circle">11€</div>
+                        </li>
+                    </ul>
+                    <div class="choices-box">
+                        <h4 class="choices-title">VIANDE AU CHOIX</h4>
+                        <p class="choices-text">KEBAB / POULET / STEAK / MERGUEZ / CORDON BLEU / NUGGETS / TENDERS /
+                            KEFTA</p>
+                    </div>
+                </section>
+
+                <!-- VIANDE -->
+                <section class="menu-category mt-4">
+                    <div class="category-header">
+                        <img src="viande.png" alt="" class="category-image" onerror="this.style.display='none'">
+                        <h2 class="category-title"><span class="brush-bg">VIANDE</span></h2>
+                    </div>
+                    <ul class="items-list">
+                        <li class="menu-item">
+                            <span class="item-name">MOYENNE VIANDE</span>
+                            <div class="price-circle">6€</div>
+                        </li>
+                        <li class="menu-item">
+                            <span class="item-name">GRANDE VIANDE</span>
+                            <div class="price-circle">8€</div>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- DESSERT -->
+                <section class="menu-category mt-4">
+                    <div class="category-header">
+                        <img src="dessert.png" alt="" class="category-image" onerror="this.style.display='none'">
+                        <h2 class="category-title"><span class="brush-bg">DESSERT</span></h2>
+                    </div>
+                    <ul class="items-list">
+                        <li class="menu-item">
+                            <span class="item-name">PANINI NUTELLA</span>
+                            <div class="price-circle">3,5€</div>
+                        </li>
+                        <li class="menu-item">
+                            <span class="item-name">TIRAMISU</span>
+                            <div class="price-circle">3€</div>
+                        </li>
+                        <li class="menu-item">
+                            <span class="item-name">GLACE</span>
+                            <div class="price-circle">2€</div>
+                        </li>
+                    </ul>
+                </section>
+
+            </div>
+
+            <!-- COLUMN 3 -->
+            <div class="menu-column">
+
+                <!-- NUGGETS -->
+                <section class="menu-category">
+                    <div class="category-header">
+                        <img src="nuggets.png" alt="" class="category-image" onerror="this.style.display='none'">
+                        <h2 class="category-title"><span class="brush-bg">NUGGETS</span></h2>
+                    </div>
+                    <ul class="items-list">
+                        <li class="menu-item">
+                            <span class="item-name">NUGGETS x 6</span>
+                            <div class="price-circle">5€</div>
+                        </li>
+                        <li class="menu-item">
+                            <span class="item-name">AVEC FRITES</span>
+                            <div class="price-circle">2€</div>
+                        </li>
+                        <li class="menu-item">
+                            <span class="item-name">NUGGETS x 10</span>
+                            <div class="price-circle">7€</div>
+                        </li>
+                        <li class="menu-item mt-2">
+                            <span class="item-name text-red">SUPPLÉMENT</span>
+                            <div class="price-circle">2€</div>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- ASSIETTE -->
+                <section class="menu-category mt-4">
+                    <div class="category-header">
+                        <img src="assiette.png" alt="" class="category-image" onerror="this.style.display='none'">
+                        <h2 class="category-title"><span class="brush-bg">ASSIETTE</span></h2>
+                    </div>
+                    <ul class="items-list">
+                        <li class="menu-item">
+                            <span class="item-name">ASSIETTE</span>
+                            <div class="price-circle">10€</div>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- SUPPLÉMENT -->
+                <section class="menu-category mt-4">
+                    <h2 class="category-title"><span class="brush-bg">SUPPLÉMENT</span></h2>
+                    <ul class="items-list text-center">
+                        <li class="menu-item-flex">
+                            <span class="item-name">CHEDDAR / BOURSIN / CHÈVRE / MOZZARELLA / SAUCE FROMAGÈRE /
+                                OEUF</span>
+                            <div class="price-circle">1€</div>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- FRITE -->
+                <section class="menu-category mt-4">
+                    <div class="category-header">
+                        <img src="frite.png" alt="" class="category-image" onerror="this.style.display='none'">
+                        <h2 class="category-title"><span class="brush-bg">FRITE</span></h2>
+                    </div>
+                    <ul class="items-list">
+                        <li class="menu-item">
+                            <span class="item-name">MOYENNE FRITE</span>
+                            <div class="price-circle">2,5€</div>
+                        </li>
+                        <li class="menu-item">
+                            <span class="item-name">GRANDE FRITE</span>
+                            <div class="price-circle">3€</div>
+                        </li>
+                    </ul>
+                </section>
+
+            </div>
+        </div>
+
+        <!-- SAUCES -->
+        <section class="sauces-section">
+            <div class="sauces-content">
+                <!-- QUI PUOI INSERIRE LA FOTO DELLE SALSE -->
+                <img src="sauces.png" alt="Sauces" class="sauces-image" onerror="this.style.display='none'">
+                <p>Blanche, Mayonnaise, Algérienne, Curry, Barbecue, Ketchup, Biggy Burger, Poivre, Chili Thaï,
+                    Samouraï, Harissa, Marocaine, Andalouse</p>
+            </div>
+        </section>
+
+        <!-- FOOTER INFO -->
+        <footer class="footer-info">
+            <div class="footer-badge">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <span>SUR PLACE ET À EMPORTER</span>
+            </div>
+            <div class="footer-location">
+                <a href="https://maps.google.com/?q=62+bis+Rue+du+Dr+Godard,+72600+Mamers" target="_blank"
+                    class="location-link">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>62 bis Rue du Dr Godard, 72600 Mamers</span>
+                </a>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- FIXED CALL TO ACTION -->
+    <a href="tel:0244305189" class="floating-cta">
+        <i class="fa-solid fa-phone-volume bobbing"></i> COMMANDER : 02 44 30 51 89
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
